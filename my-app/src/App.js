@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import {MyComponent} from './MyComponent';
 import './App.css';
 
 export const App = () => {
@@ -17,6 +18,7 @@ export const App = () => {
 				>
 					Learn React
 				</a>
+        <MyComponent type="normal" value="123" />
 			</header>
 		</div>
 	);
