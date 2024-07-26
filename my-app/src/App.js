@@ -18,7 +18,9 @@ export const App = () => {
 				>
 					Learn React
 				</a>
-        <MyComponent type="normal" value="123" />
+        <MyComponent />
+        <MyComponent />
+        <MyComponent />
 			</header>
 		</div>
 	);
